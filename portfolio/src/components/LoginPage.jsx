@@ -19,7 +19,6 @@ const LoginPage = () => {
 
   const onBackgroundClick = () => {
     if (localStorage.getItem("isLoggedIn") === "true") {
-      alert(`Welcome ${localStorage.getItem("Username")}`);
       setupIntroPage();
     } else {
       setIsBlurred(!isBlurred);
@@ -30,7 +29,6 @@ const LoginPage = () => {
     localStorage.setItem("isLoggedIn", "true");
     localStorage.setItem("Username", username);
     setIsBlurred(false);
-    alert(`Welcome ${username}`);
     setupIntroPage();
   };
 
@@ -58,7 +56,7 @@ const LoginPage = () => {
         )}
 
         <div
-          className={`absolute bottom-10 left-10 flex flex-col text-left transition-opacity duration-300 ${
+          className={`flex flex-col relative z-20 px-8 py-20 transition-opacity duration-500 w-full h-screen justify-start items-center md:items-start md:justify-end ${
             isBlurred ? "opacity-20" : "opacity-100"
           }`}
         >
