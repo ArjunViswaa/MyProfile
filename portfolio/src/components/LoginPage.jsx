@@ -46,7 +46,7 @@ const LoginPage = () => {
       {loading ? <LoadingScreen /> : <></>}
       
       <div
-        className={`w-screen h-screen z-50 bg-[url('assets/images/login.webp')] bg-cover bg-center bg-no-repeat flex items-center justify-center transition-all duration-500 ${
+        className={`w-screen h-screen z-50 bg-[url('assets/images/login-1.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center transition-all duration-500 ${
           isBlurred ? "backdrop-blur-md" : ""
         }`}
         onClick={onBackgroundClick}
