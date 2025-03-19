@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileAndEducation from '../components/profileAndEducation';
+import ProfileAndEducation from '../components/ProfileAndEducation';
 import ExperienceAndSkills from '../components/ExperienceAndSkills';
 import Contacts from '../components/Contacts';
 
