@@ -2,7 +2,7 @@ import React from "react";
 
 function ProfileAndEducation() {
     return (
-        <div id="projects-and-Education" className='flex flex-col w-[15vw]'>
+        <div id="projects-and-Education" className='flex flex-col gap-4 order-2 md:order-1'>
             <div className="bg-[#18181b] text-white p-6 rounded-lg flex flex-col items-center h-[45vh] cursor-pointer transition-transform duration-500 hover:!scale-105">
                 <h2 className="text-2xl font-bold">Project Studio</h2>
                 <div className="w-40 h-40 flex items-center justify-center rounded-full border-25 border-green-400 mt-4">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contacts() {
   return (
-    <div id="contact" className='flex flex-col w-[15vw]'>
+    <div id="contact" className='flex flex-col gap-4 order-3 md:order-3'>
         <div className="bg-[#18181b] text-white pt-6 p-3 rounded-lg flex flex-col items-center h-[45vh]">
           <h2 className="text-2xl font-bold">Connect</h2>
           <div className='flex flex-col mt-5 w-[100%] h-[70%]'>

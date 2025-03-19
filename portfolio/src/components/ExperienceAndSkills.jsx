@@ -2,8 +2,8 @@ import React from "react";
 
 function ExperienceAndSkills() {
     return (
-        <div id="profile-experience-skills" className='flex flex-col w-[40vw] m-5'>
-            <div className='flex flex-row  h-[21vh]'>
+        <div id="profile-experience-skills" className='flex flex-col gap-4 md:col-span-2 order-1 md:order-2'>
+            <div className='flex flex-row gap-2 flex-1 max-h-[170px]'>
                 <div className='w-[50%] mr-3 rounded-lg bg-[#9353d3] cursor-pointer transition-transform duration-500 hover:!scale-105'>
                     <h6 className="text-lg font-bold text-white mt-[10%] ml-[5%] italic">Personal Info</h6>
                     <h5 className="text-2xl font-bold text-white mt-[7%] ml-[5%]">Arjun S Viswanath</h5>
@@ -13,10 +13,10 @@ function ExperienceAndSkills() {
                     <h5 className="text-2xl font-bold text-white mt-[7%] ml-[5%]">Software Associate - Projects</h5>
                 </div>
             </div>
-            <div className='flex h-[35vh] mt-5'>
+            <div className='relative flex flex-col items-center bg-[#18181b] rounded-xl items-center justify-end relative h-[280px] w-full cursor-pointer md:flex-1'>
                 <div className='w-full bg-[#18181b] rounded-lg cursor-pointer transition-transform duration-500 hover:!scale-105'></div>
             </div>
-            <div className='flex flex-row h-[21vh] mt-5'>
+            <div className='flex flex-row gap-2 flex-1 max-h-[170px]'>
                 <div className='w-[50%] mr-3 rounded-lg bg-[#17c964] cursor-pointer transition-transform duration-500 hover:!scale-105'>
                     <h6 className="text-lg font-bold text-white mt-[10%] ml-[5%] italic">Experience</h6>
                     <div className="flex flex-row w-full items-center justify-center flex-1 mt-5">
