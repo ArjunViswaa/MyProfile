@@ -19,7 +19,7 @@ function WelcomePage() {
         setTimeout(() => {
             setLoading(false);
             navigate("/portfolio-dashboard");
-        }, 2000);
+        }, 1000);
     }
 
     return (

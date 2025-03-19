@@ -1,8 +1,8 @@
 import './App.css';
-import LoginPage from './components/LoginPage';
+import LoginPage from './pages/LoginPage';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import WelcomePage from './components/WelcomePage';
-import Dashboard from './components/Dashboard';
+import WelcomePage from './pages/WelcomePage';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
