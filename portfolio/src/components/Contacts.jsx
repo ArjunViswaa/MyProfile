@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Contacts({ bgScreenSet }) {
+function Contacts({ setModal }) {
   const contactsList = {
     gmail: 'mailto:arjunviswaa@gmail.com',
     discord: 'https://discord.gg/SDxTf7Hu',
@@ -40,7 +40,7 @@ function Contacts({ bgScreenSet }) {
             </div>
           </div>
         </div>
-        <div onClick={() => bgScreenSet(true)} className="bg-[#18181b] text-white p-6 rounded-lg flex flex-col items-center mt-5 h-[35vh] cursor-pointer transition-transform duration-500 hover:!scale-105">
+        <div onClick={() => setModal("certifications")} className="bg-[#18181b] text-white p-6 rounded-lg flex flex-col items-center mt-5 h-[35vh] cursor-pointer transition-transform duration-500 hover:!scale-105">
           
         </div>
       </div>
